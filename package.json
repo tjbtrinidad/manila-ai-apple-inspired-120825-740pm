@@ -1,0 +1,52 @@
+{
+  "name": "mnl-ai-premium-website",
+  "version": "2.0.0",
+  "description": "Premium AI-powered website for Filipino entrepreneurs. Minimal, Apple-inspired design built by Tristan Trinidad.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "echo \"No tests specified\" && exit 0",
+    "lint": "echo \"No linting configured\" && exit 0"
+  },
+  "keywords": [
+    "ai",
+    "websites",
+    "automation",
+    "filipino",
+    "entrepreneurs",
+    "premium",
+    "minimal",
+    "apple-design"
+  ],
+  "author": {
+    "name": "Tristan Trinidad",
+    "email": "hello@mnl-ai.com",
+    "url": "https://mnl-ai.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mnl-ai/premium-website.git"
+  },
+  "homepage": "https://mnl-ai.com",
+  "bugs": {
+    "url": "https://github.com/mnl-ai/premium-website/issues",
+    "email": "hello@mnl-ai.com"
+  },
+  "private": false,
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "peerDependencies": {},
+  "bundledDependencies": [],
+  "config": {
+    "port": 3000
+  }
+}
