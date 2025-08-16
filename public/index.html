@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>MNL-AI | Premium Websites for Filipino Entrepreneurs</title>
+    <meta name="description" content="Professional websites starting at ₱10,000. Built specifically for Filipino entrepreneurs who want to grow their business online.">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mnl-ai.com/">
+    <meta property="og:title" content="MNL-AI | Premium Websites for Filipino Entrepreneurs">
+    <meta property="og:description" content="Professional websites starting at ₱10,000. Built specifically for Filipino entrepreneurs who want to grow their business online.">
+    <meta property="og:image" content="/assets/branding/og-image.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://mnl-ai.com/">
+    <meta property="twitter:title" content="MNL-AI | Premium Websites for Filipino Entrepreneurs">
+    <meta property="twitter:description" content="Professional websites starting at ₱10,000. Built specifically for Filipino entrepreneurs who want to grow their business online.">
+    <meta property="twitter:image" content="/assets/branding/og-image.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/branding/favicon.ico">
+    <link rel="icon" type="image/png" sizes="512x512" href="/assets/branding/favicon-512.png">
+    
+    <!-- Preload critical assets -->
+    <link rel="preload" href="/assets/hero/hero-desktop.jpg" as="image" media="(min-width: 1024px)">
+    <link rel="preload" href="/assets/hero/hero-tablet.jpg" as="image" media="(min-width: 768px) and (max-width: 1023px)">
+    <link rel="preload" href="/assets/hero/hero-mobile.jpg" as="image" media="(max-width: 767px)">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- JavaScript -->
+    <script defer src="/script.js"></script>
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loading-screen">
+        <div class="loading-content">
+            <div class="loading-logo">MNL-AI</div>
+            <div class="loading-spinner"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">MNL-AI</a>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#work" class="nav-link">Work</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <div class="nav-controls">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <span class="theme-icon">🌙</span>
+                </button>
+                <button class="mobile-menu-toggle" id="mobile-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <picture class="hero-background">
+            <source media="(min-width: 1024px)" srcset="/assets/hero/hero-desktop.jpg">
+            <source media="(min-width: 768px)" srcset="/assets/hero/hero-tablet.jpg">
+            <img src="/assets/hero/hero-mobile.jpg" alt="Modern workspace" loading="eager" width="1200" height="900" decoding="async">
+        </picture>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title" data-reveal="up">
+                    Professional websites that bring you more customers
+                </h1>
+                <p class="hero-subtitle" data-reveal="up" data-delay="0.2">
+                    Starting at ₱10,000 • Built for Filipino entrepreneurs
+                </p>
+                <div class="hero-actions" data-reveal="up" data-delay="0.4">
+                    <a href="#contact" class="btn-primary btn-hero">
+                        <span>Get Your Website Built</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="m9 18 6-6-6-6"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="hero-stats" data-reveal="up" data-delay="0.6">
+                    <div class="stat">
+                        <img src="/assets/metrics/icon__happy-clients.png" alt="Happy clients icon" width="48" height="48" loading="lazy">
+                        <div class="stat-number">20+</div>
+                        <div class="stat-label">Happy Clients</div>
+                    </div>
+                    <div class="stat">
+                        <img src="/assets/metrics/icon__speed-delivery.png" alt="Fast delivery icon" width="48" height="48" loading="lazy">
+                        <div class="stat-number">7-14</div>
+                        <div class="stat-label">Days Delivery</div>
+                    </div>
+                    <div class="stat">
+                        <img src="/assets/metrics/icon__satisfaction.png" alt="Satisfaction guarantee icon" width="48" height="48" loading="lazy">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Satisfaction</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process section" style="background-image: url('/assets/steps/bg_for3steps.png');">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-reveal="up">Simple 3-step process</h2>
+            </div>
+            
+            <div class="process-steps">
+                <div class="step" data-reveal="up" data-delay="0.1">
+                    <div class="step-icon">
+                        <img src="/assets/steps/3step_consult.png" alt="Consultation step" width="80" height="80" loading="lazy">
+                    </div>
+                    <div class="step-number">01</div>
+                    <h3 class="step-title">Consult</h3>
+                    <p class="step-description">We discuss your business goals and requirements</p>
+                </div>
+                <div class="step" data-reveal="up" data-delay="0.2">
+                    <div class="step-icon">
+                        <img src="/assets/steps/3step_build.png" alt="Building step" width="80" height="80" loading="lazy">
+                    </div>
+                    <div class="step-number">02</div>
+                    <h3 class="step-title">Build</h3>
+                    <p class="step-description">Your website is designed and developed in 7-14 days</p>
+                </div>
+                <div class="step" data-reveal="up" data-delay="0.3">
+                    <div class="step-icon">
+                        <img src="/assets/steps/3step_launch.png" alt="Launch step" width="80" height="80" loading="lazy">
+                    </div>
+                    <div class="step-number">03</div>
+                    <h3 class="step-title">Launch</h3>
+                    <p class="step-description">Go live and start attracting more customers</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-reveal="up">What we build</h2>
+                <p class="section-subtitle" data-reveal="up" data-delay="0.2">
+                    Professional solutions designed to grow your business
+                </p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card" data-reveal="up" data-delay="0.1">
+                    <picture class="service-image">
+                        <source media="(min-width: 768px)" srcset="/assets/cards/website_creation_desktop.png">
+                        <img src="/assets/cards/website_creation_mobile.png" alt="Website Creation service" width="400" height="240" loading="lazy">
+                    </picture>
+                    <div class="service-content">
+                        <h3 class="service-title">Website Creation</h3>
+                        <p class="service-description">Professional websites that convert visitors into customers. Mobile-optimized and fast-loading.</p>
+                        <div class="service-price">₱10,000 - ₱15,000</div>
+                    </div>
+                </div>
+                
+                <div class="service-card" data-reveal="up" data-delay="0.2">
+                    <picture class="service-image">
+                        <source media="(min-width: 768px)" srcset="/assets/cards/ai_chatbots_desktop.png">
+                        <img src="/assets/cards/ai_chatbots_mobile.png" alt="AI Chatbots service" width="400" height="240" loading="lazy">
+                    </picture>
+                    <div class="service-content">
+                        <h3 class="service-title">AI Chatbots</h3>
+                        <p class="service-description">Smart chatbots that qualify leads and book appointments 24/7 while you sleep.</p>
+                        <div class="service-price">Custom Quote</div>
+                    </div>
+                </div>
+                
+                <div class="service-card" data-reveal="up" data-delay="0.3">
+                    <picture class="service-image">
+                        <source media="(min-width: 768px)" srcset="/assets/cards/automation_desktop.png">
+                        <img src="/assets/cards/automation_mobile.png" alt="Business Automation service" width="400" height="240" loading="lazy">
+                    </picture>
+                    <div class="service-content">
+                        <h3 class="service-title">Business Automation</h3>
+                        <p class="service-description">Automate repetitive tasks and save 10+ hours per week with smart workflows.</p>
+                        <div class="service-price">Custom Quote</div>
+                    </div>
+                </div>
+                
+                <div class="service-card" data-reveal="up" data-delay="0.4">
+                    <picture class="service-image">
+                        <source media="(min-width: 768px)" srcset="/assets/cards/marketing_assets_desktop.png">
+                        <img src="/assets/cards/marketing_assets_mobile.png" alt="Marketing Assets service" width="400" height="240" loading="lazy">
+                    </picture>
+                    <div class="service-content">
+                        <h3 class="service-title">Marketing Assets</h3>
+                        <p class="service-description">Professional logos, business cards, and branding that matches your website perfectly.</p>
+                        <div class="service-price">Custom Quote</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Logo/Brand Mark -->
+    <section class="brand-mark section">
+        <div class="container">
+            <div class="brand-mark-content" data-reveal="up">
+                <div class="mark">
+                    <span class="mark-text">MNL</span>
+                    <span class="mark-separator">•</span>
+                    <span class="mark-text">AI</span>
+                </div>
+                <p class="mark-tagline">Building the future of Filipino businesses online</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Showcase Section -->
+    <section class="showcase section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-reveal="up">See how professional websites transform businesses</h2>
+            </div>
+            
+            <div class="showcase-content">
+                <div class="showcase-item" data-reveal="up" data-delay="0.1">
+                    <div class="showcase-image">
+                        <img src="/assets/showcase/showcase-before.jpg" alt="Before: Basic Facebook page" loading="lazy" width="400" height="300">
+                    </div>
+                    <div class="showcase-label">Before</div>
+                    <p class="showcase-description">Basic Facebook page with limited reach</p>
+                </div>
+                
+                <div class="showcase-arrow" data-reveal="up" data-delay="0.2">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="m9 18 6-6-6-6"/>
+                    </svg>
+                </div>
+                
+                <div class="showcase-item" data-reveal="up" data-delay="0.3">
+                    <div class="showcase-image">
+                        <img src="/assets/showcase/showcase-after.jpg" alt="After: Professional website" loading="lazy" width="400" height="300">
+                    </div>
+                    <div class="showcase-label">After</div>
+                    <p class="showcase-description">Professional website with 3x more leads</p>
+                </div>
+            </div>
+            
+            <div class="showcase-results" data-reveal="up" data-delay="0.4">
+                <div class="result">
+                    <div class="result-number">+250%</div>
+                    <div class="result-label">More inquiries</div>
+                </div>
+                <div class="result">
+                    <div class="result-number">₱15k</div>
+                    <div class="result-label">Investment</div>
+                </div>
+                <div class="result">
+                    <div class="result-number">2 weeks</div>
+                    <div class="result-label">ROI timeline</div>
+                </div>
+            </div>
+            
+            <!-- Conversion CTA Bar -->
+            <div class="cta-bar" data-reveal="up" data-delay="0.5">
+                <div class="cta-content">
+                    <h3>Ready to transform your business?</h3>
+                    <p>Get a professional website that works as your 24/7 sales team</p>
+                </div>
+                <a href="#contact" class="btn-primary">Start Your Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Section -->
+    <section class="work section" id="work">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-reveal="up">Recent work</h2>
+                <p class="section-subtitle" data-reveal="up" data-delay="0.2">
+                    Websites and automations that helped Filipino businesses grow
+                </p>
+            </div>
+
+            <div class="work-grid">
+                <article class="work-card" data-reveal="up" data-delay="0.1">
+                    <div class="work-image">
+                        <img src="/assets/work/work-realty.jpg" alt="RealtyHub Philippines website" loading="lazy" width="400" height="240">
+                    </div>
+                    <div class="work-content">
+                        <h3 class="work-title">RealtyHub Philippines</h3>
+                        <p class="work-description">Real estate platform with automated lead capture</p>
+                        <a href="#" class="work-link">View Project</a>
+                    </div>
+                </article>
+
+                <article class="work-card" data-reveal="up" data-delay="0.2">
+                    <div class="work-image">
+                        <img src="/assets/work/work-restaurant.jpg" alt="Manila Eats Delivery website" loading="lazy" width="400" height="240">
+                    </div>
+                    <div class="work-content">
+                        <h3 class="work-title">Manila Eats Delivery</h3>
+                        <p class="work-description">Food delivery platform with smart ordering system</p>
+                        <a href="#" class="work-link">View Project</a>
+                    </div>
+                </article>
+
+                <article class="work-card" data-reveal="up" data-delay="0.3">
+                    <div class="work-image">
+                        <img src="/assets/work/work-fitness.jpg" alt="FitnessPH Studio website" loading="lazy" width="400" height="240">
+                    </div>
+                    <div class="work-content">
+                        <h3 class="work-title">FitnessPH Studio</h3>
+                        <p class="work-description">Fitness booking platform with member management</p>
+                        <a href="#" class="work-link">View Project</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-reveal="up">What clients say</h2>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial" data-reveal="up" data-delay="0.1">
+                    <div class="testimonial-content">
+                        <p>"Our website brought us 3x more leads in the first month. Tristan delivered exactly what we needed."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <div class="author-name">Maria Santos</div>
+                            <div class="author-title">Owner, RealtyHub Philippines</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial" data-reveal="up" data-delay="0.2">
+                    <div class="testimonial-content">
+                        <p>"Professional, fast delivery, and great results. The automation saves us hours every week."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <div class="author-name">Carlos Rodriguez</div>
+                            <div class="author-title">CEO, Manila Eats</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial" data-reveal="up" data-delay="0.3">
+                    <div class="testimonial-content">
+                        <p>"Worth every peso. Our booking system now runs itself and we focus on what we do best."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <div class="author-name">Ana Cruz</div>
+                            <div class="author-title">Founder, FitnessPH</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-reveal="up">Frequently asked questions</h2>
+            </div>
+
+            <div class="faq-container">
+                <details class="faq-item" data-reveal="up" data-delay="0.1">
+                    <summary>
+                        <img src="/assets/faq/faq_calendar.png" alt="Calendar icon" width="24" height="24">
+                        How long does it take to build a website?
+                    </summary>
+                    <div class="faq-content">
+                        <p>Most websites are completed within 7-14 days. We'll give you an exact timeline after discussing your requirements.</p>
+                    </div>
+                </details>
+
+                <details class="faq-item" data-reveal="up" data-delay="0.2">
+                    <summary>
+                        <img src="/assets/faq/faq_support.png" alt="Support icon" width="24" height="24">
+                        Do you provide ongoing support?
+                    </summary>
+                    <div class="faq-content">
+                        <p>Yes! All websites include 30 days of free support. After that, we offer maintenance packages starting at ₱2,000/month.</p>
+                    </div>
+                </details>
+
+                <details class="faq-item" data-reveal="up" data-delay="0.3">
+                    <summary>
+                        <img src="/assets/faq/faq_package.png" alt="Package icon" width="24" height="24">
+                        What's included in the ₱10,000 package?
+                    </summary>
+                    <div class="faq-content">
+                        <p>You get a fully responsive website, mobile optimization, basic SEO setup, contact forms, and 30 days of support.</p>
+                    </div>
+                </details>
+
+                <details class="faq-item" data-reveal="up" data-delay="0.4">
+                    <summary>
+                        <img src="/assets/faq/faq_globe.png" alt="Globe icon" width="24" height="24">
+                        Do you work with businesses outside Metro Manila?
+                    </summary>
+                    <div class="faq-content">
+                        <p>Yes! We work with Filipino businesses nationwide. All communication is done online via video calls.</p>
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Daily Stack Section -->
+    <section class="stack section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-reveal="up">My daily stack</h2>
+                <p class="section-subtitle" data-reveal="up" data-delay="0.2">
+                    The tools I use to design, build, and automate your business
+                </p>
+            </div>
+
+            <div class="stack-grid" data-reveal="up" data-delay="0.3">
+                <div class="stack-item">
+                    <img src="/assets/tools/figma.svg" alt="Figma" loading="lazy" width="40" height="40">
+                </div>
+                <div class="stack-item">
+                    <img src="/assets/tools/notion.svg" alt="Notion" loading="lazy" width="40" height="40">
+                </div>
+                <div class="stack-item">
+                    <img src="/assets/tools/github.svg" alt="GitHub" loading="lazy" width="40" height="40">
+                </div>
+                <div class="stack-item">
+                    <img src="/assets/tools/railway.svg" alt="Railway" loading="lazy" width="40" height="40">
+                </div>
+                <div class="stack-item">
+                    <img src="/assets/tools/openai.svg" alt="OpenAI" loading="lazy" width="40" height="40">
+                </div>
+                <div class="stack-item">
+                    <img src="/assets/tools/claude.svg" alt="Claude" loading="lazy" width="40" height="40">
+                </div>
+                <div class="stack-item">
+                    <img src="/assets/tools/make.svg" alt="Make" loading="lazy" width="40" height="40">
+                </div>
+                <div class="stack-item">
+                    <img src="/assets/tools/stripe.svg" alt="Stripe" loading="lazy" width="40" height="40">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image" data-reveal="left">
+                    <img src="/assets/profile/tristan_profile.jpg" alt="Tristan Trinidad, Founder of MNL-AI" loading="lazy" width="300" height="300">
+                </div>
+                <div class="about-text" data-reveal="right">
+                    <h2 class="about-title">Meet Tristan Trinidad</h2>
+                    <p class="about-description">
+                        Filipino entrepreneur dedicated to helping local businesses dominate online. 
+                        Over the years, I've partnered with ambitious business owners across the Philippines, 
+                        helping them build websites that work as their 24/7 sales team.
+                    </p>
+                    <p class="about-promise">
+                        My promise: Every website I build will be faster, more professional, 
+                        and more effective than your competition.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-header">
+                    <h2 class="section-title" data-reveal="up">Ready to get started?</h2>
+                    <p class="section-subtitle" data-reveal="up" data-delay="0.2">
+                        Get your professional website built in 7-14 days
+                    </p>
+                </div>
+                
+                <form class="contact-form" id="contact-form" data-reveal="up" data-delay="0.3">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="business">Business Name</label>
+                        <input type="text" id="business" name="business" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Tell me about your project</label>
+                        <textarea id="message" name="message" rows="4" required placeholder="I need a website for my..."></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn-primary btn-form" id="submit-btn">
+                        <span>Send Message</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="m9 18 6-6-6-6"/>
+                        </svg>
+                    </button>
+                </form>
+                
+                <div class="contact-note" data-reveal="up" data-delay="0.4">
+                    <p>I'll respond within 24 hours with a custom strategy for your business</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Modal -->
+    <div class="modal-overlay" id="success-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="success-icon">✅</div>
+                <h3>Message Sent Successfully!</h3>
+                <button class="modal-close" id="modal-close" aria-label="Close modal">×</button>
+            </div>
+            <div class="modal-body">
+                <p>Thank you for reaching out! I'll review your project details and get back to you within 24 hours with a custom strategy for your business.</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-primary" id="modal-ok">Perfect!</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">MNL-AI</div>
+                    <p class="footer-tagline">
+                        Professional websites for ambitious Filipino entrepreneurs.
+                        Built with ❤️ in Manila.
+                    </p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#services">Website Creation</a></li>
+                            <li><a href="#services">AI Chatbots</a></li>
+                            <li><a href="#services">Business Automation</a></li>
+                            <li><a href="#services">Marketing Assets</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#work">Work</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="/health">Status</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 MNL-AI. All rights reserved. Built by Tristan Trinidad.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+                
